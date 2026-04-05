@@ -1,0 +1,193 @@
+{
+  "cost_centers": [
+    {
+      "rcntr": "CC1000",
+      "cost_center_name": "Sales - Americas",
+      "prctr": "PC100",
+      "rbukrs": "1000",
+      "department": "Sales",
+      "manager": "John Smith"
+    },
+    {
+      "rcntr": "CC1010",
+      "cost_center_name": "Sales - EMEA",
+      "prctr": "PC100",
+      "rbukrs": "2000",
+      "department": "Sales",
+      "manager": "Sarah Johnson"
+    },
+    {
+      "rcntr": "CC1020",
+      "cost_center_name": "Sales - APAC",
+      "prctr": "PC100",
+      "rbukrs": "3000",
+      "department": "Sales",
+      "manager": "Wei Chen"
+    },
+    {
+      "rcntr": "CC2000",
+      "cost_center_name": "Marketing - Corporate",
+      "prctr": "PC100",
+      "rbukrs": "1000",
+      "department": "Marketing",
+      "manager": "Emily Davis"
+    },
+    {
+      "rcntr": "CC2010",
+      "cost_center_name": "Marketing - Digital",
+      "prctr": "PC100",
+      "rbukrs": "1000",
+      "department": "Marketing",
+      "manager": "Michael Brown"
+    },
+    {
+      "rcntr": "CC3000",
+      "cost_center_name": "R&D - Platform",
+      "prctr": "PC200",
+      "rbukrs": "1000",
+      "department": "Engineering",
+      "manager": "David Lee"
+    },
+    {
+      "rcntr": "CC3010",
+      "cost_center_name": "R&D - Analytics",
+      "prctr": "PC200",
+      "rbukrs": "1000",
+      "department": "Engineering",
+      "manager": "Lisa Wang"
+    },
+    {
+      "rcntr": "CC3020",
+      "cost_center_name": "R&D - AI/ML",
+      "prctr": "PC200",
+      "rbukrs": "1000",
+      "department": "Engineering",
+      "manager": "Alex Kumar"
+    },
+    {
+      "rcntr": "CC4000",
+      "cost_center_name": "Operations - Americas",
+      "prctr": "PC300",
+      "rbukrs": "1000",
+      "department": "Operations",
+      "manager": "Robert Taylor"
+    },
+    {
+      "rcntr": "CC4010",
+      "cost_center_name": "Operations - EMEA",
+      "prctr": "PC300",
+      "rbukrs": "2000",
+      "department": "Operations",
+      "manager": "Anna Mueller"
+    },
+    {
+      "rcntr": "CC4020",
+      "cost_center_name": "Operations - APAC",
+      "prctr": "PC300",
+      "rbukrs": "3000",
+      "department": "Operations",
+      "manager": "Kenji Tanaka"
+    },
+    {
+      "rcntr": "CC5000",
+      "cost_center_name": "Finance - Corporate",
+      "prctr": "PC400",
+      "rbukrs": "1000",
+      "department": "Finance",
+      "manager": "Jennifer Wilson"
+    },
+    {
+      "rcntr": "CC5010",
+      "cost_center_name": "Finance - FP&A",
+      "prctr": "PC400",
+      "rbukrs": "1000",
+      "department": "Finance",
+      "manager": "Thomas Anderson"
+    },
+    {
+      "rcntr": "CC5020",
+      "cost_center_name": "Finance - Accounting",
+      "prctr": "PC400",
+      "rbukrs": "1000",
+      "department": "Finance",
+      "manager": "Maria Garcia"
+    },
+    {
+      "rcntr": "CC6000",
+      "cost_center_name": "Human Resources",
+      "prctr": "PC400",
+      "rbukrs": "1000",
+      "department": "HR",
+      "manager": "Patricia Martinez"
+    },
+    {
+      "rcntr": "CC7000",
+      "cost_center_name": "IT Infrastructure",
+      "prctr": "PC400",
+      "rbukrs": "1000",
+      "department": "IT",
+      "manager": "James Robinson"
+    },
+    {
+      "rcntr": "CC8000",
+      "cost_center_name": "Executive Office",
+      "prctr": "PC400",
+      "rbukrs": "1000",
+      "department": "Executive",
+      "manager": "CEO Office"
+    },
+    {
+      "rcntr": "CC9000",
+      "cost_center_name": "Customer Success",
+      "prctr": "PC100",
+      "rbukrs": "1000",
+      "department": "Customer Success",
+      "manager": "Rachel Green"
+    }
+  ],
+  "profit_centers": [
+    {
+      "prctr": "PC100",
+      "profit_center_name": "Sales & Marketing",
+      "segment": "SG01"
+    },
+    {
+      "prctr": "PC200",
+      "profit_center_name": "Research & Development",
+      "segment": "SG02"
+    },
+    {
+      "prctr": "PC300",
+      "profit_center_name": "Operations",
+      "segment": "SG03"
+    },
+    {
+      "prctr": "PC400",
+      "profit_center_name": "Corporate Services",
+      "segment": "SG04"
+    }
+  ],
+  "company_codes": [
+    {
+      "rbukrs": "1000",
+      "company_name": "Global Corp - US",
+      "rhcur": "USD",
+      "country": "US",
+      "region": "Americas"
+    },
+    {
+      "rbukrs": "2000",
+      "company_name": "Global Corp - Germany",
+      "rhcur": "EUR",
+      "country": "DE",
+      "region": "EMEA"
+    },
+    {
+      "rbukrs": "3000",
+      "company_name": "Global Corp - Singapore",
+      "rhcur": "SGD",
+      "country": "SG",
+      "region": "APAC"
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "gl_accounts": [
+    {
+      "racct": "100000",
+      "account_name": "Cash and Cash Equivalents",
+      "account_type": "Asset",
+      "account_group": "Current Assets",
+      "fs_item": "BS",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "110000",
+      "account_name": "Accounts Receivable",
+      "account_type": "Asset",
+      "account_group": "Current Assets",
+      "fs_item": "BS",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "120000",
+      "account_name": "Inventory",
+      "account_type": "Asset",
+      "account_group": "Current Assets",
+      "fs_item": "BS",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "150000",
+      "account_name": "Property, Plant & Equipment",
+      "account_type": "Asset",
+      "account_group": "Fixed Assets",
+      "fs_item": "BS",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "200000",
+      "account_name": "Accounts Payable",
+      "account_type": "Liability",
+      "account_group": "Current Liabilities",
+      "fs_item": "BS",
+      "debit_credit": "C"
+    },
+    {
+      "racct": "210000",
+      "account_name": "Accrued Expenses",
+      "account_type": "Liability",
+      "account_group": "Current Liabilities",
+      "fs_item": "BS",
+      "debit_credit": "C"
+    },
+    {
+      "racct": "250000",
+      "account_name": "Long-term Debt",
+      "account_type": "Liability",
+      "account_group": "Long-term Liabilities",
+      "fs_item": "BS",
+      "debit_credit": "C"
+    },
+    {
+      "racct": "300000",
+      "account_name": "Common Stock",
+      "account_type": "Equity",
+      "account_group": "Shareholders Equity",
+      "fs_item": "BS",
+      "debit_credit": "C"
+    },
+    {
+      "racct": "310000",
+      "account_name": "Retained Earnings",
+      "account_type": "Equity",
+      "account_group": "Shareholders Equity",
+      "fs_item": "BS",
+      "debit_credit": "C"
+    },
+    {
+      "racct": "400000",
+      "account_name": "Product Revenue",
+      "account_type": "Revenue",
+      "account_group": "Operating Revenue",
+      "fs_item": "PL",
+      "debit_credit": "C"
+    },
+    {
+      "racct": "401000",
+      "account_name": "Service Revenue",
+      "account_type": "Revenue",
+      "account_group": "Operating Revenue",
+      "fs_item": "PL",
+      "debit_credit": "C"
+    },
+    {
+      "racct": "402000",
+      "account_name": "Subscription Revenue",
+      "account_type": "Revenue",
+      "account_group": "Operating Revenue",
+      "fs_item": "PL",
+      "debit_credit": "C"
+    },
+    {
+      "racct": "403000",
+      "account_name": "Licensing Revenue",
+      "account_type": "Revenue",
+      "account_group": "Operating Revenue",
+      "fs_item": "PL",
+      "debit_credit": "C"
+    },
+    {
+      "racct": "410000",
+      "account_name": "Sales Returns & Allowances",
+      "account_type": "Revenue",
+      "account_group": "Contra Revenue",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "500000",
+      "account_name": "Cost of Goods Sold",
+      "account_type": "COGS",
+      "account_group": "Cost of Sales",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "501000",
+      "account_name": "Direct Materials",
+      "account_type": "COGS",
+      "account_group": "Cost of Sales",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "502000",
+      "account_name": "Direct Labor",
+      "account_type": "COGS",
+      "account_group": "Cost of Sales",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "503000",
+      "account_name": "Manufacturing Overhead",
+      "account_type": "COGS",
+      "account_group": "Cost of Sales",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "504000",
+      "account_name": "Cost of Services",
+      "account_type": "COGS",
+      "account_group": "Cost of Sales",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "600000",
+      "account_name": "Salaries & Wages",
+      "account_type": "OpEx",
+      "account_group": "Personnel Expenses",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "601000",
+      "account_name": "Employee Benefits",
+      "account_type": "OpEx",
+      "account_group": "Personnel Expenses",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "602000",
+      "account_name": "Payroll Taxes",
+      "account_type": "OpEx",
+      "account_group": "Personnel Expenses",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "610000",
+      "account_name": "Rent & Facilities",
+      "account_type": "OpEx",
+      "account_group": "Facilities",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "611000",
+      "account_name": "Utilities",
+      "account_type": "OpEx",
+      "account_group": "Facilities",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "612000",
+      "account_name": "Repairs & Maintenance",
+      "account_type": "OpEx",
+      "account_group": "Facilities",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "620000",
+      "account_name": "Marketing & Advertising",
+      "account_type": "OpEx",
+      "account_group": "Sales & Marketing",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "621000",
+      "account_name": "Sales Commissions",
+      "account_type": "OpEx",
+      "account_group": "Sales & Marketing",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "622000",
+      "account_name": "Trade Shows & Events",
+      "account_type": "OpEx",
+      "account_group": "Sales & Marketing",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "630000",
+      "account_name": "Research & Development",
+      "account_type": "OpEx",
+      "account_group": "R&D",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "631000",
+      "account_name": "Software & Tools",
+      "account_type": "OpEx",
+      "account_group": "R&D",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "640000",
+      "account_name": "Depreciation Expense",
+      "account_type": "OpEx",
+      "account_group": "Depreciation & Amortization",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "641000",
+      "account_name": "Amortization Expense",
+      "account_type": "OpEx",
+      "account_group": "Depreciation & Amortization",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "650000",
+      "account_name": "General & Administrative",
+      "account_type": "OpEx",
+      "account_group": "G&A",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "651000",
+      "account_name": "Professional Services",
+      "account_type": "OpEx",
+      "account_group": "G&A",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "652000",
+      "account_name": "Insurance",
+      "account_type": "OpEx",
+      "account_group": "G&A",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "653000",
+      "account_name": "Travel & Entertainment",
+      "account_type": "OpEx",
+      "account_group": "G&A",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "654000",
+      "account_name": "Office Supplies",
+      "account_type": "OpEx",
+      "account_group": "G&A",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "700000",
+      "account_name": "Interest Income",
+      "account_type": "Other",
+      "account_group": "Other Income",
+      "fs_item": "PL",
+      "debit_credit": "C"
+    },
+    {
+      "racct": "701000",
+      "account_name": "Dividend Income",
+      "account_type": "Other",
+      "account_group": "Other Income",
+      "fs_item": "PL",
+      "debit_credit": "C"
+    },
+    {
+      "racct": "710000",
+      "account_name": "Interest Expense",
+      "account_type": "Other",
+      "account_group": "Other Expense",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "720000",
+      "account_name": "Foreign Exchange Gain",
+      "account_type": "Other",
+      "account_group": "FX",
+      "fs_item": "PL",
+      "debit_credit": "C"
+    },
+    {
+      "racct": "721000",
+      "account_name": "Foreign Exchange Loss",
+      "account_type": "Other",
+      "account_group": "FX",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "800000",
+      "account_name": "Income Tax Expense",
+      "account_type": "Tax",
+      "account_group": "Taxes",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    },
+    {
+      "racct": "801000",
+      "account_name": "Deferred Tax Expense",
+      "account_type": "Tax",
+      "account_group": "Taxes",
+      "fs_item": "PL",
+      "debit_credit": "D"
+    }
+  ]
+}

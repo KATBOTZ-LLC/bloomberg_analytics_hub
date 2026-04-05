@@ -1,0 +1,96 @@
+{
+  "your_company": {
+    "name": "KatBotz",
+    "ticker": "KATB",
+    "metrics": {
+      "PE_Ratio": 23.5,
+      "EBITDA_Margin": 18.5,
+      "ROE": 15.2,
+      "Debt_to_Asset": 0.35,
+      "Current_Ratio": 2.1,
+      "Quick_Ratio": 1.8,
+      "Gross_Margin": 42.3,
+      "Interest_Coverage": 8.5,
+      "Revenue_Growth": 12.5,
+      "Net_Margin": 9.8
+    }
+  },
+  "competitors": [
+    {
+      "name": "Salesforce Inc",
+      "ticker": "CRM",
+      "metrics": {
+        "PE_Ratio": 28.3,
+        "EBITDA_Margin": 22.1,
+        "ROE": 18.5,
+        "Debt_to_Asset": 0.28,
+        "Current_Ratio": 2.4,
+        "Quick_Ratio": 2.0,
+        "Gross_Margin": 45.8,
+        "Interest_Coverage": 10.2,
+        "Revenue_Growth": 15.3,
+        "Net_Margin": 11.2
+      }
+    },
+    {
+      "name": "Workday Inc",
+      "ticker": "WDAY",
+      "metrics": {
+        "PE_Ratio": 31.2,
+        "EBITDA_Margin": 19.8,
+        "ROE": 16.3,
+        "Debt_to_Asset": 0.32,
+        "Current_Ratio": 2.2,
+        "Quick_Ratio": 1.9,
+        "Gross_Margin": 43.5,
+        "Interest_Coverage": 9.1,
+        "Revenue_Growth": 13.8,
+        "Net_Margin": 10.5
+      }
+    },
+    {
+      "name": "Oracle Corp",
+      "ticker": "ORCL",
+      "metrics": {
+        "PE_Ratio": 25.7,
+        "EBITDA_Margin": 24.3,
+        "ROE": 20.1,
+        "Debt_to_Asset": 0.45,
+        "Current_Ratio": 1.9,
+        "Quick_Ratio": 1.6,
+        "Gross_Margin": 48.2,
+        "Interest_Coverage": 12.5,
+        "Revenue_Growth": 10.2,
+        "Net_Margin": 13.4
+      }
+    },
+    {
+      "name": "SAP SE",
+      "ticker": "SAP",
+      "metrics": {
+        "PE_Ratio": 27.9,
+        "EBITDA_Margin": 21.5,
+        "ROE": 17.8,
+        "Debt_to_Asset": 0.38,
+        "Current_Ratio": 2.0,
+        "Quick_Ratio": 1.7,
+        "Gross_Margin": 44.9,
+        "Interest_Coverage": 9.8,
+        "Revenue_Growth": 11.7,
+        "Net_Margin": 12.1
+      }
+    }
+  ],
+  "industry_median": {
+    "PE_Ratio": 27.2,
+    "EBITDA_Margin": 21.0,
+    "ROE": 17.5,
+    "Debt_to_Asset": 0.35,
+    "Current_Ratio": 2.1,
+    "Quick_Ratio": 1.8,
+    "Gross_Margin": 44.5,
+    "Interest_Coverage": 10.0,
+    "Revenue_Growth": 12.0,
+    "Net_Margin": 11.5
+  }
+}
