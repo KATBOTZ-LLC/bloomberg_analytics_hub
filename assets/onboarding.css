@@ -1,0 +1,304 @@
+/* ========================================
+   CFO PULSE - ONBOARDING SCREEN STYLES
+   Professional company details form
+   ======================================== */
+
+/* Onboarding Container */
+#onboarding-screen {
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Background */
+.onboarding-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+    z-index: -1;
+}
+
+.onboarding-background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:
+        radial-gradient(ellipse at 20% 20%, rgba(59, 130, 246, 0.15) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 80%, rgba(34, 197, 94, 0.1) 0%, transparent 50%),
+        radial-gradient(ellipse at 50% 50%, rgba(99, 102, 241, 0.08) 0%, transparent 70%);
+    animation: bgShift 20s ease-in-out infinite alternate;
+}
+
+@keyframes bgShift {
+    0% { transform: scale(1) rotate(0deg); }
+    100% { transform: scale(1.1) rotate(2deg); }
+}
+
+/* Main Container */
+.onboarding-container {
+    min-height: 100vh;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+/* Header */
+.onboarding-header {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.onboarding-logo {
+    width: 72px;
+    height: 72px;
+    background: linear-gradient(135deg, #3b82f6, #6366f1);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 24px;
+    box-shadow: 0 20px 40px rgba(59, 130, 246, 0.3);
+}
+
+.onboarding-logo i {
+    font-size: 32px;
+    color: white;
+}
+
+.onboarding-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 12px;
+    letter-spacing: -0.02em;
+}
+
+.onboarding-subtitle {
+    font-size: 16px;
+    color: #94a3b8;
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Form Card */
+.onboarding-card {
+    background: rgba(255, 255, 255, 0.98);
+    border-radius: 24px;
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 
+        0 25px 50px -12px rgba(0, 0, 0, 0.25),
+        0 0 0 1px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+}
+
+/* Section Titles */
+.onboarding-section-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 20px;
+    margin-top: 32px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #3b82f6;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.onboarding-section-title:first-of-type {
+    margin-top: 0;
+}
+
+.onboarding-section-title i {
+    color: #3b82f6;
+    font-size: 20px;
+}
+
+/* Form Inputs */
+.onboarding-input {
+    background-color: #f8fafc;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 14px 18px;
+    font-size: 15px;
+    width: 100%;
+    transition: all 0.2s ease;
+    color: #1e293b;
+}
+
+.onboarding-input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
+}
+
+.onboarding-input::placeholder {
+    color: #94a3b8;
+}
+
+/* Labels */
+.onboarding-label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #475569;
+    margin-bottom: 8px;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Dropdown Override */
+.onboarding-card .Select-control {
+    background-color: #f8fafc !important;
+    border: 2px solid #e2e8f0 !important;
+    border-radius: 12px !important;
+    min-height: 50px !important;
+}
+
+.onboarding-card .Select-control:hover {
+    border-color: #3b82f6 !important;
+}
+
+.onboarding-card .Select-value-label {
+    color: #1e293b !important;
+}
+
+/* Privacy Notice */
+.onboarding-privacy {
+    background: linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 100%);
+    padding: 16px 20px;
+    border-radius: 12px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid #bbf7d0;
+}
+
+.onboarding-privacy i {
+    font-size: 24px;
+    color: #22c55e;
+}
+
+.onboarding-privacy span {
+    font-size: 14px;
+    color: #166534;
+    line-height: 1.5;
+}
+
+/* Buttons */
+.onboarding-buttons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.onboarding-btn-primary {
+    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+    color: white;
+    border: none;
+    padding: 16px 40px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3);
+}
+
+.onboarding-btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 40px rgba(59, 130, 246, 0.4);
+}
+
+.onboarding-btn-secondary {
+    background: transparent;
+    color: #64748b;
+    border: 2px solid #e2e8f0;
+    padding: 14px 32px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.onboarding-btn-secondary:hover {
+    border-color: #94a3b8;
+    color: #475569;
+    background: #f8fafc;
+}
+
+/* Metric Grid */
+.onboarding-metric-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.onboarding-metric-item {
+    background: #f8fafc;
+    border-radius: 12px;
+    padding: 16px;
+    border: 1px solid #e2e8f0;
+    transition: all 0.2s ease;
+}
+
+.onboarding-metric-item:hover {
+    border-color: #3b82f6;
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .onboarding-card {
+        padding: 24px;
+        margin: 0 12px;
+    }
+    
+    .onboarding-title {
+        font-size: 28px;
+    }
+    
+    .onboarding-metric-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+    
+    .onboarding-buttons {
+        flex-direction: column;
+    }
+    
+    .onboarding-btn-primary,
+    .onboarding-btn-secondary {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .onboarding-metric-grid {
+        grid-template-columns: 1fr;
+    }
+}

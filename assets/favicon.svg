@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="15" fill="#0066cc" stroke="#004499" stroke-width="1"/>
+
+  <!-- Chart icon -->
+  <g fill="white">
+    <!-- Bar 1 -->
+    <rect x="7" y="18" width="4" height="8" rx="1"/>
+    <!-- Bar 2 -->
+    <rect x="14" y="13" width="4" height="13" rx="1"/>
+    <!-- Bar 3 -->
+    <rect x="21" y="10" width="4" height="16" rx="1"/>
+  </g>
+
+  <!-- Trend line -->
+  <path d="M 7 19 Q 14 14, 21 11" stroke="#FFA500" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+</svg>

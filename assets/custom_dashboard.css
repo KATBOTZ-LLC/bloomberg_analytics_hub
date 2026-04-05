@@ -1,0 +1,631 @@
+/* CFO Pulse Dashboard - Custom Styles */
+
+/* Card hover effects */
+.kpi-card-hover:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+/* Smooth transitions */
+* {
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Dropdown styling */
+.Select-control {
+    border-radius: 6px !important;
+    border-color: #e5e7eb !important;
+}
+
+.Select-control:hover {
+    border-color: #3b82f6 !important;
+}
+
+/* Button hover effects */
+.btn-light:hover {
+    background-color: #f3f4f6 !important;
+    border-color: #d1d5db !important;
+}
+
+/* Tab styling */
+.nav-tabs .nav-link {
+    border: none !important;
+    border-bottom: 2px solid transparent !important;
+    color: #6b7280 !important;
+    font-weight: 500 !important;
+}
+
+.nav-tabs .nav-link:hover {
+    color: #1f2937 !important;
+    border-bottom-color: #d1d5db !important;
+}
+
+.nav-tabs .nav-link.active {
+    color: #3b82f6 !important;
+    border-bottom-color: #3b82f6 !important;
+    background-color: transparent !important;
+}
+
+/* Progress bar animation */
+.progress-bar {
+    transition: width 0.6s ease !important;
+}
+
+/* Alert items animation */
+.alert-item {
+    transition: background-color 0.2s ease;
+}
+
+.alert-item:hover {
+    background-color: #f9fafb;
+}
+
+/* Loading spinner */
+._dash-loading {
+    margin: 0;
+}
+
+._dash-loading-callback {
+    display: none;
+}
+
+/* Graph container */
+.js-plotly-plot {
+    border-radius: 8px;
+}
+
+/* Responsive text */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 20px !important;
+    }
+
+    h2 {
+        font-size: 18px !important;
+    }
+
+    .kpi-card-hover {
+        margin-bottom: 16px;
+    }
+}
+
+/* Dark mode enhancements - uses CSS variables from theme.css */
+.dark-mode {
+    background-color: var(--bg-primary, #0f172a) !important;
+    color: var(--text-primary, #f1f5f9) !important;
+}
+
+.dark-mode .card,
+.dark-mode .kpi-card-hover,
+.dark-mode [class*="kpi-card"] {
+    background-color: var(--bg-card, #1e293b) !important;
+    border-color: var(--border-primary, #334155) !important;
+    color: var(--text-primary, #f1f5f9) !important;
+}
+
+.dark-mode .card-body {
+    background-color: var(--bg-card, #1e293b) !important;
+}
+
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6 {
+    color: var(--text-primary, #f1f5f9) !important;
+}
+
+.dark-mode p, .dark-mode span {
+    color: inherit;
+}
+
+.dark-mode ::-webkit-scrollbar-track {
+    background: var(--bg-secondary, #1e293b);
+}
+
+.dark-mode ::-webkit-scrollbar-thumb {
+    background: var(--border-secondary, #475569);
+}
+
+.dark-mode ::-webkit-scrollbar-thumb:hover {
+    background: var(--text-muted, #64748b);
+}
+
+/* Badge styling */
+.badge {
+    font-weight: 500;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+}
+
+/* Animation for insights */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Sparkline container */
+.sparkline-container {
+    height: 64px;
+    margin: 16px -8px 0 -8px;
+}
+
+/* Button group styling */
+.btn-group .btn {
+    border-radius: 6px !important;
+    margin: 0 4px;
+}
+
+/* Focus states */
+button:focus,
+.form-control:focus,
+.Select-control:focus {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+}
+
+/* Tooltip styling */
+.tooltip {
+    font-size: 13px;
+}
+
+/* Card header improvements */
+.card-header {
+    background-color: transparent;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 20px 24px;
+}
+
+/* Table styling improvements */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+table th {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: #6b7280;
+}
+
+table td {
+    padding: 12px 16px;
+}
+
+table tr:hover {
+    background-color: #f9fafb;
+}
+
+/* Icon sizing */
+.icon-sm {
+    width: 16px;
+    height: 16px;
+}
+
+.icon-md {
+    width: 20px;
+    height: 20px;
+}
+
+.icon-lg {
+    width: 24px;
+    height: 24px;
+}
+
+/* Status indicators */
+.status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.status-success {
+    background-color: #10b981;
+}
+
+.status-warning {
+    background-color: #f59e0b;
+}
+
+.status-danger {
+    background-color: #ef4444;
+}
+
+/* Loading state */
+.loading-skeleton {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: loading 1.5s ease-in-out infinite;
+}
+
+@keyframes loading {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
+
+/* ========================================
+   SIDEBAR NAVIGATION STYLES
+   ======================================== */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: #ffffff;
+    border-right: 1px solid #e5e7eb;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1100;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar.expanded {
+    width: 260px;
+}
+
+.sidebar.collapsed {
+    width: 72px;
+}
+
+.sidebar-header {
+    padding: 20px 16px;
+    border-bottom: 1px solid #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 72px;
+}
+
+.sidebar-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    overflow: hidden;
+}
+
+.sidebar-logo-icon {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+}
+
+.sidebar-logo-text {
+    font-weight: 600;
+    font-size: 16px;
+    color: #111827;
+    white-space: nowrap;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.sidebar.collapsed .sidebar-logo-text {
+    opacity: 0;
+    transform: translateX(-10px);
+    width: 0;
+}
+
+.sidebar-toggle {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    border-radius: 6px;
+    background-color: #f3f4f6;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: #6b7280;
+}
+
+.sidebar-toggle:hover {
+    background-color: #e5e7eb;
+    color: #111827;
+}
+
+.sidebar-nav {
+    flex: 1;
+    padding: 16px 8px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.sidebar-nav-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    margin-bottom: 4px;
+    border-radius: 8px;
+    color: #6b7280;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    position: relative;
+}
+
+.sidebar-nav-item:hover {
+    background-color: #f3f4f6;
+    color: #111827;
+}
+
+.sidebar-nav-item.active {
+    background-color: #eff6ff;
+    color: #3b82f6;
+}
+
+.sidebar-nav-item-icon {
+    width: 20px;
+    min-width: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.sidebar-nav-item-text {
+    font-size: 14px;
+    font-weight: 500;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.sidebar.collapsed .sidebar-nav-item-text {
+    opacity: 0;
+    transform: translateX(-10px);
+    width: 0;
+}
+
+.sidebar.collapsed .sidebar-nav-item {
+    justify-content: center;
+    padding: 12px;
+}
+
+.sidebar-footer {
+    border-top: 1px solid #e5e7eb;
+    padding: 16px 8px;
+}
+
+.sidebar-footer-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    margin-bottom: 4px;
+    border-radius: 8px;
+    color: #6b7280;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.sidebar-footer-item:hover {
+    background-color: #f3f4f6;
+    color: #111827;
+}
+
+.sidebar-footer-item:last-child {
+    margin-bottom: 0;
+}
+
+.sidebar-footer-item-icon {
+    width: 20px;
+    min-width: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.sidebar-footer-item-text {
+    font-size: 14px;
+    font-weight: 500;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.sidebar.collapsed .sidebar-footer-item-text {
+    opacity: 0;
+    transform: translateX(-10px);
+    width: 0;
+}
+
+.sidebar.collapsed .sidebar-footer-item {
+    justify-content: center;
+    padding: 12px;
+}
+
+/* Hide system status content when sidebar is collapsed */
+.sidebar.collapsed #system-status-content {
+    display: none !important;
+    opacity: 0;
+    overflow: hidden;
+}
+
+/* Hide system status toggle icon when sidebar is collapsed */
+.sidebar.collapsed #system-status-toggle-icon {
+    display: none;
+}
+
+/* Hide data refresh content when sidebar is collapsed */
+.sidebar.collapsed #data-refresh-content {
+    display: none !important;
+    opacity: 0;
+    overflow: hidden;
+}
+
+/* Hide data refresh toggle icon when sidebar is collapsed */
+.sidebar.collapsed #data-refresh-toggle-icon {
+    display: none;
+}
+
+/* Main content adjustment */
+.main-content {
+    transition: margin-left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.main-content.sidebar-expanded {
+    margin-left: 260px;
+    width: calc(100% - 260px);
+}
+
+.main-content.sidebar-collapsed {
+    margin-left: 72px;
+    width: calc(100% - 72px);
+}
+
+/* Dark mode sidebar - uses CSS variables */
+.sidebar.dark-mode,
+.dark-mode .sidebar {
+    background-color: var(--bg-card, #1e293b) !important;
+    border-right-color: var(--border-primary, #334155) !important;
+}
+
+.dark-mode .sidebar-logo-text {
+    color: var(--text-primary, #f1f5f9) !important;
+}
+
+.dark-mode .sidebar-toggle {
+    background-color: var(--bg-tertiary, #334155) !important;
+    color: var(--text-tertiary, #94a3b8) !important;
+}
+
+.dark-mode .sidebar-toggle:hover {
+    background-color: var(--bg-hover, #334155) !important;
+    color: var(--text-primary, #f1f5f9) !important;
+}
+
+.dark-mode .sidebar-nav-item {
+    color: var(--text-tertiary, #94a3b8) !important;
+}
+
+.dark-mode .sidebar-nav-item:hover {
+    background-color: var(--bg-hover, #334155) !important;
+    color: var(--text-primary, #f1f5f9) !important;
+}
+
+.dark-mode .sidebar-nav-item.active {
+    background-color: rgba(59, 130, 246, 0.15) !important;
+    color: var(--accent-primary, #3b82f6) !important;
+}
+
+.dark-mode .sidebar-footer {
+    border-top-color: var(--border-primary, #334155) !important;
+}
+
+.dark-mode .sidebar-footer-item {
+    color: var(--text-tertiary, #94a3b8) !important;
+}
+
+.dark-mode .sidebar-footer-item:hover {
+    background-color: var(--bg-hover, #334155) !important;
+    color: var(--text-primary, #f1f5f9) !important;
+}
+
+/* Scrollbar for sidebar */
+.sidebar-nav::-webkit-scrollbar {
+    width: 4px;
+}
+
+.sidebar-nav::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.sidebar-nav::-webkit-scrollbar-thumb {
+    background: #d1d5db;
+    border-radius: 4px;
+}
+
+.sidebar-nav::-webkit-scrollbar-thumb:hover {
+    background: #9ca3af;
+}
+
+/* ========================================
+   FOOTER STYLES
+   ======================================== */
+
+footer {
+    margin-top: auto;
+}
+
+footer a {
+    transition: all 0.2s ease;
+}
+
+footer a:hover {
+    opacity: 0.8;
+    transform: translateX(2px);
+}
+
+.footer-logout-btn:hover {
+    background-color: rgba(239, 68, 68, 0.1) !important;
+    border-color: #dc2626 !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 2px 8px rgba(239, 68, 68, 0.2) !important;
+}
+
+/* Footer responsive adjustments */
+@media (max-width: 768px) {
+    footer .row > div {
+        margin-bottom: 24px !important;
+    }
+
+    footer .row > div:last-child {
+        margin-bottom: 0 !important;
+    }
+
+    footer h6 {
+        margin-top: 16px;
+    }
+}
+
+/* Footer dark mode */
+.dark-mode footer a:hover {
+    color: #60a5fa !important;
+}
+
+.dark-mode .footer-logout-btn:hover {
+    background-color: rgba(239, 68, 68, 0.15) !important;
+}
