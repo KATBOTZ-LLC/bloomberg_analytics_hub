@@ -1,0 +1,27 @@
+# SAP HANA Client
+hdbcli==2.23.27
+
+# Data Processing
+pandas==2.2.3
+numpy==2.2.3
+
+# Dashboard Framework
+dash==2.18.2
+dash-bootstrap-components==1.6.0
+plotly==5.24.1
+
+# Web Server
+gunicorn==23.0.0
+
+# Security & Authentication
+cryptography==43.0.3
+
+# Email Services
+sendgrid==6.11.0
+
+# Utilities
+python-dotenv==1.0.1
+
+# ML Model Loading
+joblib==1.4.2
+scikit-learn==1.5.2
