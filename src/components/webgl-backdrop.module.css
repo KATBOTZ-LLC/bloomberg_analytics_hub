@@ -1,0 +1,17 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  filter: saturate(0.68) contrast(1.06) brightness(0.95);
+  mix-blend-mode: normal;
+  opacity: 0.86;
+  transform: scale(1.03);
+}
